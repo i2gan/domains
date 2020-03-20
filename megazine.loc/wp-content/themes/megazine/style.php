@@ -189,12 +189,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 							</div>
 						</div>
-<?php endif; ?>
-<!-- 2 -->
 
-
-<!-- Mini Slider -->
-<?php if ( $count == 3 ): ?>
 						<div class="col-md-4">
 							<div class="blog-entry-style animate-box">
 								<div class="blog-slider">
@@ -220,7 +215,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 					</div>
 <?php endif; ?>
-<!-- Mini Slider -->
+<!-- 2 -->
 
 
 <!-- 3 -->
@@ -511,3 +506,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</body>
 </html>
 
+text
