@@ -136,7 +136,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <!-- Posts -->
 <?php $count = 0; ?>
-<?php $style_posts = new WP_Query(array('cat' => -2, 'posts_per_page => 12')) ?>
+<?php $style_posts = new WP_Query(array('cat' => -2, 'posts_per_page' => 11)) ?>
 <?php if ( $style_posts->have_posts() ) : ?><?php while ( $style_posts->have_posts() ) : $style_posts->the_post(); ?>
 
 
@@ -158,8 +158,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<span class="cat"><a href="#">
 											<?php echo get_the_category()[0]->cat_name; ?>
 										</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -181,8 +181,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -205,8 +205,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -231,8 +231,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -254,8 +254,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -277,8 +277,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -292,15 +292,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="blog-entry-style animate-box">
 								<div class="blog-img">
 									<div class="video colorlib-video" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-6.jpg);">
-										<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play4"></i></a>
+										<a href="https://vimeo.com/channels/staffpicks/81138893" class="popup-vimeo"><i class="icon-play4"></i></a>
 										<div class="overlay"></div>
 									</div>
 								</div>
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -312,12 +312,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <!-- 6 -->
 <?php if ( $count == 6 ): ?>
-
-<?php endif; ?>
-<!-- 6 -->
-
-<!-- 6 -->
-<?php if ( $count == 6 ): ?>
 						<div class="col-md-4">
 							<div class="blog-entry-style animate-box">
 								<div class="blog-img">
@@ -326,8 +320,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -351,8 +345,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -374,8 +368,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -397,8 +391,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -422,8 +416,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
@@ -445,8 +439,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="desc">
 									<p class="meta">
 										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
+										<span class="date"><?php the_time('d M Y') ?></span>
+										<span class="pos">By <a href="#"><?php the_author() ?></a></span>
 									</p>
 									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
 									<?php the_content(); ?>
