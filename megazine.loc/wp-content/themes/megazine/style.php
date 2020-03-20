@@ -195,10 +195,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="blog-slider">
 									<div class="owl-carousel">
 										<div class="item">
-											<a href="blog.html" class="image-popup-link"><img src="<?php bloginfo('template_url'); ?>/images/blog-3.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+											<a href="blog.html" class="image-popup-link"><img src="<?php bloginfo('template_url'); ?>/images/img_bg_1.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 										</div>
 										<div class="item">
-											<a href="blog.html" class="image-popup-link"><img src="<?php bloginfo('template_url'); ?>/images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+											<a href="blog.html" class="image-popup-link"><img src="<?php bloginfo('template_url'); ?>/images/img_bg_3.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 										</div>
 									</div>
 								</div>
