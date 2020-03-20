@@ -163,6 +163,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					<div class="row">
 						<div class="col-md-9">
 							<div class="content-wrap">
+
 								<article class="animate-box">
 									<div class="blog-img">
 										<div class="video colorlib-video" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-6.jpg);">
@@ -184,6 +185,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<article class="animate-box">
 									<div class="blog-img" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-1.jpg);"></div>
 									<div class="desc">
@@ -200,6 +202,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<article class="animate-box">
 									<div class="blog-img" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-2.jpg);"></div>
 									<div class="desc">
@@ -216,6 +219,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<article class="animate-box">
 									<div class="blog-img" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-4.jpg);"></div>
 									<div class="desc">
@@ -232,6 +236,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<article class="animate-box">
 									<div class="blog-img" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-5.jpg);"></div>
 									<div class="desc">
@@ -248,6 +253,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<article class="animate-box">
 									<div class="blog-img" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-7.jpg);"></div>
 									<div class="desc">
@@ -264,6 +270,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<article class="animate-box">
 									<div class="blog-img" style="background-image: url(<?php bloginfo('template_url'); ?>/images/blog-8.jpg);"></div>
 									<div class="desc">
@@ -280,6 +287,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<p><a href="single.html" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
 								</article>
+
 								<div class="row">
 									<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 										<ul class="pagination">
@@ -292,6 +300,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										</ul>
 									</div>
 								</div>
+
 							</div>
 						</div>
 						<div class="col-md-3 sticky-parent">
@@ -402,3 +411,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 	</body>
 </html>
+
+20
