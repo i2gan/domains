@@ -286,11 +286,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 					</div>
-<?php endif; ?>
-<!-- 5 -->
 
-<!-- 6 -->
-<?php if ( $count == 6 ): ?>
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-8">
 							<div class="blog-entry-style animate-box">
@@ -312,10 +308,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 <?php endif; ?>
+<!-- 5 -->
+
+<!-- 6 -->
+<?php if ( $count == 6 ): ?>
+
+<?php endif; ?>
 <!-- 6 -->
 
-<!-- 7 -->
-<?php if ( $count == 7 ): ?>
+<!-- 6 -->
+<?php if ( $count == 6 ): ?>
 						<div class="col-md-4">
 							<div class="blog-entry-style animate-box">
 								<div class="blog-img">
@@ -334,11 +336,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 					</div>
 <?php endif; ?>
+<!-- 6 -->
+
+<!-- 7 -->
+<?php if ( $count == 7 ): ?>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-4">
+							<div class="blog-entry-style animate-box">
+								<div class="blog-img">
+									<a href="blog.html">
+<?php the_post_thumbnail('', array('class' => 'img-responsive')); ?>
+									</a>
+								</div>
+								<div class="desc">
+									<p class="meta">
+										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
+										<span class="date">25 May 2018</span>
+										<span class="pos">By <a href="#">Walter</a></span>
+									</p>
+									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
+									<?php the_content(); ?>
+								</div>
+							</div>
+						</div>
+<?php endif; ?>
 <!-- 7 -->
 
 <!-- 8 -->
 <?php if ( $count == 8 ): ?>
-					<div class="row row-bottom-padded-md">
 						<div class="col-md-4">
 							<div class="blog-entry-style animate-box">
 								<div class="blog-img">
@@ -380,35 +405,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 							</div>
 						</div>
+					</div>
 <?php endif; ?>
 <!-- 9 -->
 
 <!-- 10 -->
 <?php if ( $count == 10 ): ?>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html">
-<?php the_post_thumbnail('', array('class' => 'img-responsive')); ?>
-									</a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#"><?php echo get_the_category()[0]->cat_name; ?></a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html"><?php the_title(); ?></a></h2>
-									<?php the_content(); ?>
-								</div>
-							</div>
-						</div>
-					</div>
-<?php endif; ?>
-<!-- 10 -->
-
-<!-- 11 -->
-<?php if ( $count == 11 ): ?>
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-4">
 							<div class="blog-entry-style animate-box">
@@ -429,10 +431,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 <?php endif; ?>
-<!-- 11 -->
+<!-- 10 -->
 
-<!-- 12 -->
-<?php if ( $count == 12 ): ?>
+<!-- 11 -->
+<?php if ( $count == 11 ): ?>
 						<div class="col-md-8">
 							<div class="blog-entry-style animate-box">
 								<div class="blog-img">
@@ -453,7 +455,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 					</div>
 <?php endif; ?>
-<!-- 12 -->
+<!-- 11 -->
 
 <?php endwhile; ?>
 <!-- post navigation -->
@@ -505,5 +507,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <?php wp_footer(); ?>
 	</body>
 </html>
-
-text
